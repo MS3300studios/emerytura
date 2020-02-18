@@ -20,4 +20,9 @@ drgdsrgdrsgdsgdrgsdgsdgr
 
 Podstawowym typem jest `string`
 
+```csharp
+   Console.WriteLine("Podaj imie");
+   imie = Console.ReadLine();
+```
+
 ### Nagłówke 2.2
