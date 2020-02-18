@@ -10,6 +10,7 @@ namespace EmeryturaSolution
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
