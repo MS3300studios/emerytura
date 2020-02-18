@@ -27,4 +27,4 @@ Podstawowym typem jest `string`
 
 ### Nagłówek 2.2
 
-strona [WSEI] (https://wsei.edu.pl)
+strona [WSEI](https://wsei.edu.pl)
