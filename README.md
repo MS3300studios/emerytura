@@ -16,4 +16,8 @@ drgdsrgdrsgdsgdrgsdgsdgr
 * ccc
   
 
-### Nagłówek 2
+### Nagłówek 2.1
+
+Podstawowym typem jest `string`
+
+### Nagłówke 2.2
