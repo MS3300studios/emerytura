@@ -25,4 +25,6 @@ Podstawowym typem jest `string`
    imie = Console.ReadLine();
 ```
 
-### Nagłówke 2.2
+### Nagłówek 2.2
+
+strona [WSEI] (https://wsei.edu.pl)
