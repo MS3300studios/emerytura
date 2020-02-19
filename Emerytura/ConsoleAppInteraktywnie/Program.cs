@@ -17,6 +17,7 @@ namespace ConsoleAppInteraktywnie
             Console.Write("Podaj swoje imie: ");
             string imie = Console.ReadLine();
             imie = imie.Trim();
+            
             //nazwisko
             Console.Write("Podaj swoje nazwisko: ");
             string nazwisko = Console.ReadLine().Trim();
