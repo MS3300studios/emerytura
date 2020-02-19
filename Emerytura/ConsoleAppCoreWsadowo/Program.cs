@@ -13,6 +13,11 @@ namespace ConsoleAppCoreWsadowo
         const int WiekEmerytalny = 67; //stała globalna  
         static void Main(string[] args)
         {
+            if (args.Length < 3) 
+            {
+                Console.WriteLine("Za malo danych. Wymagane dane: 3");
+                return;
+            }
             string imie = args[0];
             string nazwisko = args[1];
             int wiek = int.Parse(args[2]);
@@ -22,8 +27,10 @@ namespace ConsoleAppCoreWsadowo
 
 
             Console.WriteLine($"Masz {wiek} lat.");
-            if (wiek >= WiekEmerytalny) Console.WriteLine("Jestes emerytem");
-            else Console.WriteLine($"Do emerytury zostalo ci: {WiekEmerytalny - wiek}");
+            if (wiek >= WiekEmerytalny) 
+                Console.WriteLine("Jestes emerytem");
+            else 
+                Console.WriteLine($"Do emerytury zostalo ci: {WiekEmerytalny - wiek}");
         }
     }
 }
