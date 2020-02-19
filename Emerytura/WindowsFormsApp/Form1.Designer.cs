@@ -40,21 +40,21 @@
             // 
             // textBoxImie
             // 
-            this.textBoxImie.Location = new System.Drawing.Point(123, 23);
+            this.textBoxImie.Location = new System.Drawing.Point(213, 26);
             this.textBoxImie.Name = "textBoxImie";
             this.textBoxImie.Size = new System.Drawing.Size(158, 20);
             this.textBoxImie.TabIndex = 0;
             // 
             // textBoxNazwisko
             // 
-            this.textBoxNazwisko.Location = new System.Drawing.Point(123, 65);
+            this.textBoxNazwisko.Location = new System.Drawing.Point(213, 68);
             this.textBoxNazwisko.Name = "textBoxNazwisko";
             this.textBoxNazwisko.Size = new System.Drawing.Size(158, 20);
             this.textBoxNazwisko.TabIndex = 1;
             // 
             // textBoxWiek
             // 
-            this.textBoxWiek.Location = new System.Drawing.Point(123, 112);
+            this.textBoxWiek.Location = new System.Drawing.Point(213, 112);
             this.textBoxWiek.Name = "textBoxWiek";
             this.textBoxWiek.Size = new System.Drawing.Size(158, 20);
             this.textBoxWiek.TabIndex = 2;
@@ -65,7 +65,7 @@
             this.Imie.BackColor = System.Drawing.SystemColors.Control;
             this.Imie.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.Imie.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Imie.Location = new System.Drawing.Point(57, 22);
+            this.Imie.Location = new System.Drawing.Point(112, 25);
             this.Imie.Name = "Imie";
             this.Imie.Size = new System.Drawing.Size(44, 18);
             this.Imie.TabIndex = 3;
@@ -78,7 +78,7 @@
             this.label1.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label1.Location = new System.Drawing.Point(26, 65);
+            this.label1.Location = new System.Drawing.Point(106, 69);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(78, 16);
             this.label1.TabIndex = 4;
@@ -90,7 +90,7 @@
             this.label2.BackColor = System.Drawing.SystemColors.Control;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label2.Location = new System.Drawing.Point(54, 112);
+            this.label2.Location = new System.Drawing.Point(112, 113);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(47, 16);
             this.label2.TabIndex = 5;
@@ -99,7 +99,7 @@
             // buttonOblicz
             // 
             this.buttonOblicz.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.buttonOblicz.Location = new System.Drawing.Point(69, 176);
+            this.buttonOblicz.Location = new System.Drawing.Point(143, 185);
             this.buttonOblicz.Name = "buttonOblicz";
             this.buttonOblicz.Size = new System.Drawing.Size(184, 39);
             this.buttonOblicz.TabIndex = 6;
@@ -113,7 +113,7 @@
             this.labelWynik.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.labelWynik.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.labelWynik.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.labelWynik.Location = new System.Drawing.Point(25, 265);
+            this.labelWynik.Location = new System.Drawing.Point(25, 286);
             this.labelWynik.Name = "labelWynik";
             this.labelWynik.Size = new System.Drawing.Size(311, 24);
             this.labelWynik.TabIndex = 7;
@@ -125,7 +125,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(342, 366);
+            this.ClientSize = new System.Drawing.Size(546, 366);
             this.Controls.Add(this.labelWynik);
             this.Controls.Add(this.buttonOblicz);
             this.Controls.Add(this.label2);

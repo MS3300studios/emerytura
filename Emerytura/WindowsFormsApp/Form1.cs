@@ -30,11 +30,11 @@ namespace WindowsFormsApp
 
             if(wiek>=67)
             {
-                labelWynik.Text = "jesteś emerytem";
+                labelWynik.Text = $"Witaj {imie} {nazwisko}! Jesteś emerytem";
             }
             else
             {
-                labelWynik.Text = $"do emerytury zostało ci {67 - wiek} lat";
+                labelWynik.Text = $"Witaj {imie} {nazwisko}! Do emerytury zostało ci {67 - wiek} lat";
             }
         }
 
